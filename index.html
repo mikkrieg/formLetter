@@ -12,16 +12,32 @@
   </head>
   <body>
     <div class="container">
-      <h1>Postcard</h1>
+      <h1 class="hide">Postcard</h1>
       <div class="row">
-        <form>
+        <form class="hide">
           <div class="col-md-12">
             <label for="letter">
+              Write your name here!
               <input id="letter" class="form-control" type="text">
             </label>
           </div>
           <button type="submit" class="btn btn-info">Submit!</button>
         </form>
+        <div class="row" id="hidden">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-title">
+                <h2>Dear <span id="name"></span>,</h2>
+                <div class="card-body">
+                  <img src="img/palm-tree.jpg" alt="postcard icon that is a palm tree">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nulla quis turpis auctor mattis et ut ex. Donec eu tristique dui. Aenean vehicula fermentum arcu quis suscipit. Maecenas pellentesque ipsum vitae massa pellentesque, vel aliquet nulla pharetra. Vivamus pretium, lacus non sagittis elementum, odio lorem blandit magna, nec ornare ipsum leo nec augue. Sed molestie pellentesque gravida. Mauris rhoncus pellentesque commodo. Mauris finibus est vel arcu congue posuere. Etiam mattis quam non lobortis hendrerit. Sed vel odio nec dolor finibus sollicitudin. Nullam a pretium nisl. Nulla massa eros, pharetra at pellentesque vel, semper posuere purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer pulvinar semper sem, sed sagittis quam rutrum a.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
